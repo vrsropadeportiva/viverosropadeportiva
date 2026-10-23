@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path d="M32 3 56 11v20c0 15-10 25-24 30C18 56 8 46 8 31V11z" fill="#c6ff1a"/>
+  <path d="M32 9 50 15v16c0 11-7 19-18 23-11-4-18-12-18-23V15z" fill="#0b0d0c"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="15" font-weight="900" font-style="italic" fill="#c6ff1a">VRS</text>
+</svg>

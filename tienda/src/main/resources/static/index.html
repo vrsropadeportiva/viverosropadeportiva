@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VIVEROS Ropa Deportiva | Uniformes deportivos personalizados</title>
+	<meta name="description" content="Fabricantes de uniformes deportivos personalizados en Armenia, Quindío. Pide por WhatsApp.">
+	<meta name="theme-color" content="#0b0d0c">
+	<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+	<header class="topbar">
+		<div class="contenedor topbar__in">
+			<a class="marca" href="#inicio">
+				<img src="img/logo.svg" alt="" width="40" height="40">
+				<span><strong>VIVEROS</strong> Ropa Deportiva</span>
+			</a>
+			<nav class="menu" aria-label="Principal">
+				<a href="#catalogo">Catálogo</a>
+				<a href="#disenos">Diseños</a>
+				<a href="#accesorios">Accesorios</a>
+				<a href="#contacto">Contacto</a>
+			</nav>
+			<a class="btn btn--wa btn--chico" href="#" data-wa="Hola, quiero información sobre uniformes personalizados." target="_blank" rel="noopener">WhatsApp</a>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero" id="inicio">
+			<div class="contenedor hero__in">
+				<div class="hero__texto">
+					<p class="eyebrow">Fabricantes · Armenia, Quindío</p>
+					<h1>Impulsamos tu pasión. <span>Diseñamos tu identidad.</span></h1>
+					<p class="hero__sub">Uniformes deportivos 100&nbsp;% personalizados para equipos, clubes, empresas y colegios. Escoge tu diseño y pídelo directamente por WhatsApp.</p>
+					<div class="hero__cta">
+						<a class="btn btn--primario" href="#catalogo">Ver catálogo</a>
+						<a class="btn btn--borde" href="#" data-wa="Hola, quiero cotizar uniformes para mi equipo." target="_blank" rel="noopener">Cotizar mi uniforme</a>
+					</div>
+				</div>
+
+				<div class="carrusel" aria-roledescription="carrusel" aria-label="Diseños más vendidos">
+					<p class="carrusel__tag">Más vendidos</p>
+					<div class="carrusel__marco" id="carrusel-marco">
+						<p class="estado">Cargando…</p>
+					</div>
+					<div class="carrusel__pie">
+						<div>
+							<p class="carrusel__nombre" id="carrusel-nombre"></p>
+							<p class="carrusel__deporte" id="carrusel-deporte"></p>
+						</div>
+						<div class="carrusel__ctrl" id="carrusel-ctrl" hidden>
+							<button type="button" class="carrusel__flecha" id="carrusel-prev" aria-label="Diseño anterior">‹</button>
+							<div class="carrusel__puntos" id="carrusel-puntos"></div>
+							<button type="button" class="carrusel__flecha" id="carrusel-next" aria-label="Diseño siguiente">›</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion" id="catalogo">
+			<div class="contenedor">
+				<div class="seccion__cab">
+					<h2>Catálogo</h2>
+					<p>Camisetas, uniformes y pantalonetas fabricados a tu medida.</p>
+				</div>
+
+				<div class="filtros">
+					<div class="chips" id="chips-deporte" role="group" aria-label="Filtrar por deporte"></div>
+					<div class="filtros__fila">
+						<label class="campo campo--buscar">
+							<span class="sr">Buscar productos</span>
+							<input type="search" id="f-buscar" placeholder="Buscar camisetas, uniformes…" autocomplete="off">
+						</label>
+						<label class="campo">
+							<span class="sr">Tipo de producto</span>
+							<select id="f-tipo">
+								<option value="">Todos los tipos</option>
+							</select>
+						</label>
+						<label class="check">
+							<input type="checkbox" id="f-disponibles">
+							<span>Solo disponibles</span>
+						</label>
+					</div>
+				</div>
+
+				<p class="estado" id="catalogo-estado" role="status"></p>
+				<div class="grid" id="catalogo-grid"></div>
+			</div>
+		</section>
+
+		<section class="seccion seccion--alt" id="disenos">
+			<div class="contenedor">
+				<div class="seccion__cab">
+					<h2>Galería de diseños</h2>
+					<p>Inspírate con nuestros diseños. Todos se pueden adaptar a los colores y el escudo de tu equipo.</p>
+				</div>
+				<p class="estado" id="disenos-estado" role="status"></p>
+				<div id="disenos-cont"></div>
+			</div>
+		</section>
+
+		<section class="seccion" id="accesorios">
+			<div class="contenedor">
+				<div class="seccion__cab">
+					<h2>Accesorios</h2>
+					<p>Completa la dotación de tu equipo.</p>
+				</div>
+				<p class="estado" id="accesorios-estado" role="status"></p>
+				<div class="grid" id="accesorios-grid"></div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="pie" id="contacto">
+		<div class="contenedor pie__in">
+			<div>
+				<p class="marca"><img src="img/logo.svg" alt="" width="32" height="32"><span><strong>VIVEROS</strong> Ropa Deportiva</span></p>
+				<p class="pie__txt">Fabricantes de uniformes deportivos personalizados.<br>Armenia, Quindío · Colombia</p>
+			</div>
+			<div class="pie__cta">
+				<p class="pie__txt">Los pedidos se hacen por WhatsApp. Sin pagos en línea.</p>
+				<a class="btn btn--wa" href="#" data-wa="Hola, quiero hacer un pedido." target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
